@@ -13,14 +13,12 @@
             <table class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                    <th>ID</th>
                     <th>Email</th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($emails as $item)
                     <tr>
-                        <td>{{ $item->id }}</td>
                         <td>{{ $item->email }}</td>
                     <tr>
                 @endforeach
@@ -30,20 +28,18 @@
         </div>
 
         <div>
-        <h3> Lista de tickes</h3>
+        <h3> Lista de tickets</h3>
 
           <div class="tabla_dos">
           <table class="table table-bordered table-hover">
               <thead>
               <tr>
-                  <th>ID</th>
                   <th>Codigo</th>
               </tr>
               </thead>
               <tbody>
               @foreach($tickets as $item)
                   <tr>
-                      <td>{{ $item->id }}</td>
                       <td>{{ $item->ticket }}</td>
                   <tr>
               @endforeach
