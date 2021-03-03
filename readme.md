@@ -6,7 +6,9 @@ Ruta búsqueda de ticket: <h4>http:/{dominio}/ticket/{parámetro}</h4>
 <br>
 Ruta de listado de tickets y emails: <h4>http:/{dominio}/lista/{parámetro}</h4>
 <br>
+
 # EJECUTAR
+
 <br>
 php artisan migrate --path=database\migrations\2021_03_02_144401_create_emails_table.php
 <br>
